@@ -54,14 +54,6 @@
 				{"name":"targetAbi","type":"bytes"},
 				{"name":"targetAddr","type":"address"}
 			]
-		},
-		{
-			"name": "result",
-			"inputs": [
-			],
-			"outputs": [
-				{"name":"result","type":"uint256"}
-			]
 		}
 	],
 	"data": [
