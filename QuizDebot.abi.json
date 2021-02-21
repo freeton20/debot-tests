@@ -45,14 +45,6 @@
 			]
 		},
 		{
-			"name": "setText",
-			"inputs": [
-				{"name":"value","type":"bytes"}
-			],
-			"outputs": [
-			]
-		},
-		{
 			"name": "getDebotOptions",
 			"inputs": [
 			],

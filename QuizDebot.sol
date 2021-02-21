@@ -32,9 +32,8 @@ contract QuizDebot is Debot {
      */
    
 
-    function fetch() public override accept returns (Context[] contexts) {
-         Terminal.print(0, "Hello from debot");
-    }
+    function fetch() public override accept returns (Context[] contexts) {}
+       
 
     function getVersion() public override accept returns (string name, uint24 semver) {
         name = "hello world debot";
