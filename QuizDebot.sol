@@ -37,7 +37,7 @@ contract QuizDebot is Debot {
     }
 
     function getVersion() public override accept returns (string name, uint24 semver) {
-        name = "Hui debot";
+        name = "hello world debot";
         semver = (1 << 8) | 3;
     }
 
@@ -47,10 +47,5 @@ contract QuizDebot is Debot {
  function start() override public {
        Terminal.print(0, "Hello from debot");
      }
-    //helper functions
-
-function setText(string value) public {
-       
-	}
    
 }
